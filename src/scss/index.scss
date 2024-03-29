@@ -1,0 +1,13 @@
+//ATTENTION AU IMPORT
+//Les mettre danss le bon ordre
+
+//Import de Boostrap
+@import "~bootstrap/scss/bootstrap";
+
+
+//General => reset, variable, body, mixins...
+@import "./general/body";
+
+//Components => Bout de code comme header, footer, modal, form...
+
+//Layout => différente page
