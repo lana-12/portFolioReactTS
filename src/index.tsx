@@ -11,6 +11,7 @@ import {
 import App from "./components/App";
 import Home from "./components/Home";
 import Project from "./components/Project";
+import Contact from './components/Contact';
 
 
 const root = ReactDOM.createRoot(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
         {/* Route des components */}
         <Route path="/" element={<Home />}></Route>
         <Route path="/project" element={<Project />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
         
       </Route>
     </>
