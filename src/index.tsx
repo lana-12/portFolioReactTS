@@ -12,6 +12,8 @@ import App from "./components/App";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Contact from './components/Contact';
+import About from './components/About';
+import Training from './components/Training';
 
 
 const root = ReactDOM.createRoot(
@@ -24,7 +26,9 @@ const router = createBrowserRouter(
         {/* Route des components */}
         <Route path="/" element={<Home />}></Route>
         <Route path="/project" element={<Project />}></Route>
+        <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/formation" element={<Training />}></Route>
         
       </Route>
     </>

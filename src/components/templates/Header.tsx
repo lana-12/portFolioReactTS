@@ -2,25 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const handleScroll = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    event.preventDefault();
-    const targetId = event.currentTarget.getAttribute("href");
-  // Vérifier si targetId est une chaîne valide
-  if (typeof targetId === "string") {
-    // Supprimez le préfixe '/#' pour obtenir l'ID correct
-    const targetElement = document.querySelector(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }
-  };
+  
 
   return (
     <header className="app-header">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <h1>
-            <Link className="navbar-brand mt-2 " to="/home" title="Accueil">
+            <Link className="navbar-brand mt-2 " to="/" title="Accueil">
               VirginieGiacometti
             </Link>
           </h1>
@@ -49,7 +38,7 @@ function Header() {
               </li>
 
               <li className="nav-item">
-                <Link className="link-header" to="#about" onClick={handleScroll} title="Projets">
+                <Link className="link-header" to="/project"  title="Projets">
                   <i className="iconUser bi bi-person-fill"></i>
                   <p>Projets</p>
                 </Link>
@@ -66,6 +55,8 @@ function Header() {
               </li>
             </ul>
             
+
+            {/* Lien reseaux Sociaux */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center ">
 
               <li className="nav-item ">
