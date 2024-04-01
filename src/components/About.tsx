@@ -4,7 +4,6 @@ import React from 'react';
 const About = () => {
     return (
         <>
-        <h2>En route ...</h2>
         <div className="row">
             <div className="col">
                 <p className="">
@@ -17,6 +16,10 @@ const About = () => {
                 <p className="">
                     Avec le temps, j'ai réalisé que mon intérêt pour l'informatique n'était pas une simple phase, mais bien une véritable passion.
                     Convaincue de ma vocation, j'ai décidé de me former dans le domaine du développement web et web mobile en suivant une formation spécialisée.
+                </p>
+                <p className="">
+                    J'ai ensuite enchaîné avec une autre formation pour enrichir mes connaissances et approfondir mes compétences dans le domaine.
+                    Cette décision représentait pour moi bien plus qu'un simple choix de carrière, mais une véritable affirmation de ma vocation dans le monde de la technologie.
                 </p>
             </div>
         </div>
