@@ -6,6 +6,7 @@ import Training from './Training';
 import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Competences from './Competences';
 
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
@@ -23,10 +24,13 @@ const Home = () => {
   return (
     <>
 
-      <section className='border border-success my-3 imgCV' id="accueil">
-        
+      <section className='border border-success my-3 imgCV' id="accueil">    
       </section>
-      <section id='about' className='border border-success my-3' >
+
+      <section className='border border-danger my-3 ' >
+        <Competences/>
+      </section>
+      <section className='border border-success my-3' >
         <div className="d-grid gap-2">
           <Button 
             variant="secondary" 
@@ -41,6 +45,8 @@ const Home = () => {
           />
         </div>
       </section>
+
+      
 
       <section className='border border-primary' >
         <div className="d-grid gap-2">
@@ -68,20 +74,25 @@ const Home = () => {
       <section className='border border-primary'>
         <div className="d-grid gap-2">
 
-          <Button variant="secondary" size="lg" className="" onClick={() => setShowContact(true)} >{' '}Contact</Button>
-          <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
+          <Button variant="secondary" size="lg" className="" onClick={() => setShowContact(true)} ><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
+          
+          {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Contact</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Contact />
-            </Offcanvas.Body>
-          </Offcanvas>
+            <Offcanvas.Body> */}
+              {/* <Contact /> */}
+            {/* </Offcanvas.Body>
+          </Offcanvas> */}
         </div>
       </section>
 
       <section className="" id="project">
         <Project />
+      </section>
+
+      <section className="contactFooter" id="contact">
+        <Contact />      
       </section>
 
     </>

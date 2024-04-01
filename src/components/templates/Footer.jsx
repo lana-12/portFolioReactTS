@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
 
-      <footer className="container-fluid app-footer">
+      <footer className="container-fluid ">
         {/* Mention + Copyright Footer */}
           <div className="row">
             <div className="col ">
