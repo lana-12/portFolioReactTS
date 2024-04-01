@@ -1,20 +1,36 @@
 import React from 'react';
+import ViewCard from './ViewCard';
 
 
 const Training = () => {
+     const trainings = [
+    {
+      title: 'Concepteur Développeur d\'Application',
+      description: 'Description formation',
+      level:'Bac+4',
+      year:'2024'
+    },
+    {
+      title: 'Développeur Web Web Mobile',
+      level: 'Bac+2',
+      description: 'Description formation',
+      year:'2023',
+    },
+  ];
+
     return (
         <>
-        <h2>... Formations</h2>
         <div className="row">
-            <div className="col">
-                <p className="">
-                    TEXTE A REFORMULER <br></br>
-                    Convaincue de ma vocation, j'ai décidé de me lancer dans une formation dédiée au développement web et web mobile. J'ai ensuite enchaîné avec une autre formation pour enrichir mes connaissances et approfondir mes compétences dans le domaine.
-                    Cette décision représentait pour moi bien plus qu'un simple choix de carrière, mais une véritable affirmation de ma vocation dans le monde de la technologie.
-
-                </p>
-
-
+            <div className="col ">
+                {trainings.map((training, index) => (
+                    <ViewCard
+                        key={index}
+                        year={training.year}
+                        title={training.title}
+                        level={training.level}
+                        description={training.description}
+                    />
+                ))}
             </div>
         </div>
         </>
