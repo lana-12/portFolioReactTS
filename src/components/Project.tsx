@@ -1,5 +1,5 @@
 import React from 'react';
-import ViewCard from './ViewCard';
+import ViewCard from './utils/ViewCard';
 
 
 const Project = () => {
