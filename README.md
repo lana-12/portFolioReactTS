@@ -14,3 +14,8 @@ git clone https://github.com/lana-12/portFolioReactTS.git
 npm install
 ```
 
+## Server
+```bash
+npm run start
+```
+
