@@ -3,6 +3,7 @@ import About from './About';
 import Project from './Project';
 import Contact from './Contact';
 import Training from './Training';
+import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -27,48 +28,40 @@ const Home = () => {
       </section>
       <section id='about' className='border border-success my-3' >
         <div className="d-grid gap-2">
-
-          <Button variant="secondary" size="lg" onClick={() => setShowAbout(true)} >{' '}Qui suis-je ?</Button>
-          <Offcanvas show={showAbout} onHide={handleCloseAbout} responsive="lg">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Qui suis-je ?</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <About />
-            </Offcanvas.Body>
-          </Offcanvas>
-
+          <Button 
+            variant="secondary" 
+            size="lg" 
+            onClick={() => setShowAbout(true)}>Qui suis-je ?
+          </Button>
+          <CustomOffcanvas 
+            title="Qui suis-je ?" 
+            content={<About />} 
+            show={showAbout} 
+            handleClose={handleCloseAbout} 
+          />
         </div>
       </section>
 
       <section className='border border-primary' >
         <div className="d-grid gap-2">
-
-          <Button variant="secondary" size="lg" className="" onClick={() => setShowProject(true)}  >{' '}<a href="#project" style={{ color: 'white' }}>Projets</a></Button>
-          {/* <Offcanvas show={showProject} onHide={handleCloseProject} responsive="lg">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Projets</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Project />
-            </Offcanvas.Body>
-          </Offcanvas> */}
+          <Button 
+            variant="secondary" 
+            size="lg" className="" 
+            onClick={() => setShowProject(true)} >
+              <a href="#project" style={{ color: 'white' }}>Projets</a>
+          </Button>
         </div>
       </section>
 
       <section className='border border-warning my-3'>
         <div className="d-grid gap-2">
-
-        <Button variant="secondary" size="lg" className="" onClick={() => setShowTraining(true)} >{' '}Formations</Button>
-        <Offcanvas show={showTraining} onHide={handleCloseTraining} responsive="lg">
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Formations</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            <Training />
-          </Offcanvas.Body>
-        </Offcanvas>
-
+        <Button variant="secondary" size="lg" className="" onClick={() => setShowTraining(true)} >Formations</Button>
+        <CustomOffcanvas 
+            title="Formations" 
+            content={<Training />} 
+            show={showTraining} 
+            handleClose={handleCloseTraining} 
+          />
         </div>
       </section>
 
