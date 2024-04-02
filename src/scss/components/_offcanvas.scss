@@ -1,4 +1,15 @@
-.offcanvas {
+.customOffCanvas {
     background-color: $color2;
     color: $white;
+}
+
+
+/********MEDIA QUERY POUR ECRAN 768px***********/
+/******min-width 768px**************/
+@include media-breakpoint("lg") {
+    .customOffCanvas {
+            color: $black;
+        }
+
+    
 }
