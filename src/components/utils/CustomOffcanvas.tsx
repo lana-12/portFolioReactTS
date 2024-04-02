@@ -1,14 +1,9 @@
 import React from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import ICustomOffcanvas from '../interfaces/ICustomOffcanvas';
 
-interface CustomOffcanvasProps {
-  title: string;
-  content: React.ReactNode;
-  show: boolean;
-  handleClose: () => void;
-}
 
-const CustomOffcanvas: React.FC<CustomOffcanvasProps> = ({ title, content, show, handleClose }) => {
+const CustomOffcanvas: React.FC<ICustomOffcanvas> = ({ title, content, show, handleClose }) => {
   return (
     <Offcanvas show={show} onHide={handleClose} responsive="lg">
       <Offcanvas.Header closeButton>

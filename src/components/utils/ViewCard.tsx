@@ -1,19 +1,10 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
-//TODO: Faire une interface 
-interface ViewCardProps {
-  title: string;
-  imageUrl?: string | null;
-  level?: string | null;
-  description: string;
-  year?: string;
-}
+import IViewCard from '../interfaces/IViewCard';
 
 
-
-const ViewCard: React.FC<ViewCardProps> = ({ title, imageUrl= null, description, level =null, year=null }) => {
+const ViewCard: React.FC<IViewCard> = ({ title, imageUrl= null, description, level =null, year=null }) => {
   return (
      <Card style={{ width: '18rem' }}>
       {imageUrl !== null && 
