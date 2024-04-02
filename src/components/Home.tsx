@@ -5,19 +5,14 @@ import Contact from './Contact';
 import Training from './Training';
 import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import Competences from './Competences';
 
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
-  const [showProject, setShowProject] = useState(false);
   const [showTraining, setShowTraining] = useState(false);
-  const [showContact, setShowContact] = useState(false);
 
   const handleCloseAbout = () => setShowAbout(false);
-  const handleCloseProject = () => setShowProject(false);
   const handleCloseTraining = () => setShowTraining(false);
-  const handleCloseContact = () => setShowContact(false);
 
 
   
@@ -53,7 +48,7 @@ const Home = () => {
           <Button 
             variant="secondary" 
             size="lg" className="" 
-            onClick={() => setShowProject(true)} >
+            >
               <a href="#project" style={{ color: 'white' }}>Projets</a>
           </Button>
         </div>
@@ -74,7 +69,7 @@ const Home = () => {
       <section className='border border-primary'>
         <div className="d-grid gap-2">
 
-          <Button variant="secondary" size="lg" className="" onClick={() => setShowContact(true)} ><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
+          <Button variant="secondary" size="lg" className="" ><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
           
           {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
             <Offcanvas.Header closeButton>
