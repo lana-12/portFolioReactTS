@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function NavBarContact() {
-
-
+   
     return (
-            <nav className="navbar navbar-expand-md navbar-dark">
+            <nav className="navbar navbar-expand-md navbar-dark ">
                 <div className="container-fluid">
                     <h1>
                         <Link className="navbar-brand mt-2 " to="/" title="Accueil">

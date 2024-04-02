@@ -1,4 +1,5 @@
 import React from 'react';
+import Vivi from '../img/Vivi.jpg';
 
 
 const About = () => {
@@ -6,6 +7,8 @@ const About = () => {
         <>
         <div className="row">
             <div className="col">
+                <img src={Vivi} alt="Vivi" className="img-fluid imgCV" />
+
                 <p className="">
                     Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination. Je suis convaincue que l'informatique est bien plus qu'un simple métier, c'est une passion qui me pousse à me lever chaque matin avec le désir de créer, d'innover et de contribuer au monde numérique.
                 </p>
