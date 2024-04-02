@@ -11,7 +11,7 @@ const Presentation = () => {
     return (
         <>
         <div className="row">
-            <div className="col d-flex justify-content-center mb-5">
+            <div className="col d-flex justify-content-center ">
                 <div className="text-center">
                     <Link className="link-header " id="#{props}" to="/" title="Accueil" style={{ color: 'black' }}>
                         <h2>Concepteur Développeur FullStack</h2>

@@ -21,10 +21,11 @@ const Home = () => {
         <Competences/>
       </section> */}
 
+    <section className='boxBtn container'>
       <section className=' my-3' >
         <div className="d-grid gap-2">
           <Button 
-          className='btnAbout'
+          className='btnCustomLink'
             // variant="secondary" 
             size="lg" 
             onClick={() => setShowAbout(true)}>Qui suis-je ?
@@ -38,12 +39,10 @@ const Home = () => {
         </div>
       </section>
 
-      
-
       <section className='' >
         <div className="d-grid gap-2">
           <Button 
-            className='btnAbout'
+            className='btnCustomLink'
             size="lg" 
             >
               <a href="#project" style={{ color: 'white' }}>Projets</a>
@@ -53,7 +52,7 @@ const Home = () => {
 
       <section className='my-3'>
         <div className="d-grid gap-2">
-        <Button  size="lg" className='btnAbout' onClick={() => setShowTraining(true)} >Formations</Button>
+        <Button  size="lg" className='btnCustomLink' onClick={() => setShowTraining(true)} >Formations</Button>
         <CustomOffcanvas 
             title="Formations" 
             content={<Training />} 
@@ -66,7 +65,7 @@ const Home = () => {
       <section className=''>
         <div className="d-grid gap-2">
 
-          <Button  size="lg" className='btnAbout'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
+          <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
           
           {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
             <Offcanvas.Header closeButton>
@@ -78,6 +77,7 @@ const Home = () => {
           </Offcanvas> */}
         </div>
       </section>
+    </section>
 
       <section className="" id="project">
         <Project />
@@ -86,6 +86,8 @@ const Home = () => {
       <section className="contactFooter" id="contact">
         <Contact />      
       </section>
+      
+
 
     </>
   );

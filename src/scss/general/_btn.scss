@@ -1,3 +1,10 @@
-.btnAbout{
+.btnCustomLink{
     @include btnCustom($color2, $white, $color3, $color1);
+    border-radius: 3px;
+    border: solid 2px $color1;
+    box-shadow: 5px 6px 5px 1px $color3;
+}
+
+.boxBtn {
+    width: 100%;
 }
