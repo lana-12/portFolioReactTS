@@ -1,9 +1,10 @@
 .contactFooter {
+    margin: 20px;
     border: red 1px solid;
     // display: flex;
     .app-footer{
-display: flex;
-flex-direction: column;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

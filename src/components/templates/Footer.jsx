@@ -25,7 +25,7 @@ function Footer() {
                 </div> */}
 
               {/* Copyright Footer */}
-                <div className="copyrightFooter ">
+                <div className="copyrightFooter text-center">
                   {/* <img src={ logo } alt="Logo Vivi" className="logoHeader img-fluid"/> */}
                   <p className=" textCopyrightHeader" ><i className="bi bi-c-circle"></i> 2024 | Vivi
                   </p>         

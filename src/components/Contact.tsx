@@ -10,11 +10,11 @@ const Contact = () => {
           <div className="row">
             <div className="col app-footer">
 
-                <h4 className="text-decoration-underline">Contact</h4>
+                <h4 className="text-center my-3">Contact</h4>
 
                 
-              <div className="">
-                <address>
+              <div className="d-md-flex">
+                <address className=''>
                 <a className="linkContactHeader" href="mailto:giacomettivirginie@gmail.com" title="Cliquer contacter moi" ><i className=" iconEmail bi bi-envelope"></i>giacomettivirginie@gmail.com</a>
                 </address>
 
@@ -23,8 +23,8 @@ const Contact = () => {
                 </address>
               </div>
 
-              <div className="">
-                <Link className="d-flex  " target="_blank"   to="https://github.com/lana-12" title="GitHub" style={{ color: 'white' }}>
+              
+                <Link className=" " target="_blank"   to="https://github.com/lana-12" title="GitHub" style={{ color: 'white' }}>
                   <i className="iconGitHub bi bi-github"></i>
                 </Link>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                   <i className="iconLinkedin bi bi-linkedin"></i>
                 </Link>
                 
-              </div>
+             
 
 
 
