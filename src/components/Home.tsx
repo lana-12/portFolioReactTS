@@ -18,10 +18,6 @@ const Home = () => {
   
   return (
     <>
-
-      <section className='border border-success my-3 imgCV' id="accueil">    
-      </section>
-
       <section className='border border-danger my-3 ' >
         <Competences/>
       </section>
