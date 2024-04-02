@@ -15,7 +15,6 @@ const Project = () => {
       imageUrl: 'https://example.com/project2.jpg',
       description: 'Description du projet 2',
     },
-    // Ajoutez d'autres projets selon vos besoins
   ];
 
     return (
@@ -23,7 +22,7 @@ const Project = () => {
         <h2 className="">Mes Projets</h2>
 
         <div className="row">
-            <div className="col-12 d-flex">
+            <div className="col-12 d-flex justify-content-center flex-wrap  ">
             {projects.map((project, index) => (
                 <ViewCard
                 key={index}

@@ -6,9 +6,10 @@
 
 
 //General => reset, variable, body, mixins...
+@import "./general/reset";
 @import "./general/body";
 
 //Components => Bout de code comme header, footer, modal, form...
-@import "./components/footer";
+@import "./components/contactFooter";
 
 //Layout => différente page
