@@ -28,25 +28,25 @@ function NavBarContact() {
                         id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center ">
 
-                            <li className="nav-item ">
+                            <li className="nav-item mb-3 me-md-5 ">
                                 <Link className="link-header " to="mailto:giacomettivirginie@gmail.com" title="Cliquer contacter moi" style={{ color: 'white' }}>
                                     <i className=" iconEmail bi bi-envelope"></i>
                                 </Link>
                             </li>
 
-                            <li className="nav-item ">
+                            <li className="nav-item mb-3 me-md-5">
                                 <Link className="link-header " to="tel:0618568698" title="Cliquer contacter moi" style={{ color: 'white' }}>
                                     <i className="iconTel bi bi-telephone-fill"></i>
                                 </Link>
                             </li>
 
-                            <li className="nav-item ">
+                            <li className="nav-item mb-3 me-md-5">
                                 <Link className="link-header " target="_blank" to="https://github.com/lana-12" title="GitHub" style={{ color: 'white' }}>
                                     <i className="iconGitHub bi bi-github"></i>
                                 </Link>
                             </li>
 
-                            <li className="nav-item">
+                            <li className="nav-item  me-md-5">
                                 <Link className="link-header" target="_blank" to="https://www.linkedin.com/in/virginie-giacometti-a88a01220/" title="Linkedin" style={{ color: 'white' }}>
                                     <i className="iconLinkedin bi bi-linkedin"></i>
                                 </Link>

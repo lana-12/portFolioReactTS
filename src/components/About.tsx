@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
         <div className="row">
-            <div className="col">
+            <div className="col boxAbout">
                 <img src={Vivi} alt="Vivi" className="img-fluid imgCV thumbnail " />
 
                 <p className="textIndent">

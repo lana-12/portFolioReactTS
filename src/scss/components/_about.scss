@@ -1,0 +1,16 @@
+.boxAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/********MEDIA QUERY POUR ECRAN 992px***********/
+/******min-width 992px**************/
+@include media-breakpoint("lg") {
+    .boxAbout {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

@@ -10,19 +10,18 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 const Presentation = () => {
     return (
         <>
-        <div className="row">
+        <div className="row mb-5">
             <div className="col d-flex justify-content-center ">
                 <div className="text-center">
                     <Link className="link-header " id="#{props}" to="/" title="Accueil" style={{ color: 'black' }}>
                         <h2>Concepteur Développeur FullStack</h2>
-                        <h3>PHP, React, Type Script</h3>
                     </Link>
                 </div>
             </div>
         </div>
         <div className="row">
             <div className="col ">
-                    <div className="presentationIcon" >
+                <div className="presentationIcon" >
                     <FontAwesomeIcon icon={faPhp} size="3x" />
                     <FontAwesomeIcon icon={faHtml5} size="3x" />
                     <FontAwesomeIcon icon={faCss3} size="3x" />

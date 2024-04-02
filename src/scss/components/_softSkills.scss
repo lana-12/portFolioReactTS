@@ -1,0 +1,29 @@
+.boxService{ 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    .serviceIcon {
+        padding: 20px;
+    }
+}
+
+/********MEDIA QUERY POUR ECRAN 992px***********/
+/******min-width 992px**************/
+@include media-breakpoint("lg") {
+    .boxService {
+        width: 100%;
+        height: 70vh;
+        background: $color2;
+        // background: $color3 url("../../img/bg4.jpg");
+        // background-size: cover;
+        // background-position: center;
+        // // background-position: 25% 75% ;
+        // background-repeat: no-repeat;
+        // box-shadow: inset 0 -9px 8px -5px $color3;
+    }
+
+
+}
+

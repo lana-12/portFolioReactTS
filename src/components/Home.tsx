@@ -5,22 +5,21 @@ import Contact from './Contact';
 import Training from './Training';
 import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
+import SoftSkills from './SoftSkills';
 
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
   const [showTraining, setShowTraining] = useState(false);
+  const [showSoftSkills, setShowSoftSkills] = useState(false);
 
   const handleCloseAbout = () => setShowAbout(false);
   const handleCloseTraining = () => setShowTraining(false);
+  const handleCloseSoftSkills = () => setShowSoftSkills(false);
 
 
   
   return (
     <>
-      {/* <section className='border border-danger my-3 ' >
-        <Competences/>
-      </section> */}
-
     <section className='boxBtn container'>
       <section className=' my-3' >
         <div className="d-grid gap-2">
@@ -47,6 +46,18 @@ const Home = () => {
             >
               <a href="#project" style={{ color: 'white' }}>Projets</a>
           </Button>
+        </div>
+      </section>
+
+      <section className='my-3 '>
+        <div className="d-grid gap-2">
+        <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Comment je suis ?</Button>
+        <CustomOffcanvas 
+            title="Comment je suis ?" 
+            content={<SoftSkills />} 
+            show={showSoftSkills} 
+            handleClose={handleCloseSoftSkills} 
+          />
         </div>
       </section>
 
@@ -79,7 +90,7 @@ const Home = () => {
       </section>
     </section>
 
-      <section className="" id="project">
+      <section className="boxProject my-5 pt-4 container-lg" id="project">
         <Project />
       </section>
 

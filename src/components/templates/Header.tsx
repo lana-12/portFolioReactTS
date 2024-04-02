@@ -10,7 +10,10 @@ function Header() {
       <div className="">
         <NavBarContact/>
       </div>
-      <div className="">
+      <section className='text-center my-5 ' >
+        <h1>En cours de développement ...</h1>
+      </section>
+      <div className="my-5">
         <Presentation/>
       </div>
       <div className="">
