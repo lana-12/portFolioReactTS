@@ -1,0 +1,12 @@
+.imgCV {
+    width: 200px;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-bottom: 25px;
+    border: $white 1px solid;
+    display: flex;
+    justify-content: center;
+    box-shadow: 12px 12px 2px 1px $color1;
+}

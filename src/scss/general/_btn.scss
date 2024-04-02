@@ -1,0 +1,3 @@
+.btnAbout{
+    @include btnCustom($color2, $white, $color3, $color1);
+}

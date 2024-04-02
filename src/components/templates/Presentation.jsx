@@ -22,17 +22,17 @@ const Presentation = () => {
         </div>
         <div className="row">
             <div className="col ">
-                <div className="">
-                        <FontAwesomeIcon icon={faPhp} size="3x" />
-                        <FontAwesomeIcon icon={faHtml5} size="3x" />
-                        <FontAwesomeIcon icon={faCss3} size="3x" />
-                        <FontAwesomeIcon icon={faSquareJs} size="3x" />
+                    <div className="presentationIcon" >
+                    <FontAwesomeIcon icon={faPhp} size="3x" />
+                    <FontAwesomeIcon icon={faHtml5} size="3x" />
+                    <FontAwesomeIcon icon={faCss3} size="3x" />
+                    <FontAwesomeIcon icon={faSquareJs} size="3x" />
 
 
-                        <FontAwesomeIcon icon={faSymfony} size="3x" />
-                        <FontAwesomeIcon icon={faReact} size="3x" />
-                        <FontAwesomeIcon icon={faSass} size="3x" />
-                        <FontAwesomeIcon icon={faDatabase} size="3x" />
+                    <FontAwesomeIcon icon={faSymfony} size="3x" />
+                    <FontAwesomeIcon icon={faReact} size="3x" />
+                    <FontAwesomeIcon icon={faSass} size="3x" />
+                    <FontAwesomeIcon icon={faDatabase} size="3x" />
                         
                 </div>
             </div>

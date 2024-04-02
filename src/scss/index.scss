@@ -7,10 +7,17 @@
 
 //General => reset, variable, body, mixins...
 @import "./general/reset";
+@import "./general/variables";
+@import "./general/mixins";
+@import "./general/class";
+@import "./general/img";
 @import "./general/body";
+@import "./general/icon";
+@import "./general/btn";
 
 //Components => Bout de code comme header, footer, modal, form...
 @import "./components/header";
+@import "./components/offcanvas";
 @import "./components/contactFooter";
 
 //Layout => différente page

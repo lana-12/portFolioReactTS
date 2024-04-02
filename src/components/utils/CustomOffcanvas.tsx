@@ -5,9 +5,9 @@ import ICustomOffcanvas from '../interfaces/ICustomOffcanvas';
 
 const CustomOffcanvas: React.FC<ICustomOffcanvas> = ({ title, content, show, handleClose }) => {
   return (
-    <Offcanvas show={show} onHide={handleClose} responsive="lg">
+    <Offcanvas className='offcanvas'  show={show} onHide={handleClose} responsive="lg">
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title>{title}</Offcanvas.Title>
+        <Offcanvas.Title >{title}</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         {content}

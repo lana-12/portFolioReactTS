@@ -5,7 +5,6 @@ import Contact from './Contact';
 import Training from './Training';
 import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
-import Competences from './Competences';
 
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
@@ -18,13 +17,15 @@ const Home = () => {
   
   return (
     <>
-      <section className='border border-danger my-3 ' >
+      {/* <section className='border border-danger my-3 ' >
         <Competences/>
-      </section>
-      <section className='border border-success my-3' >
+      </section> */}
+
+      <section className=' my-3' >
         <div className="d-grid gap-2">
           <Button 
-            variant="secondary" 
+          className='btnAbout'
+            // variant="secondary" 
             size="lg" 
             onClick={() => setShowAbout(true)}>Qui suis-je ?
           </Button>
@@ -39,20 +40,20 @@ const Home = () => {
 
       
 
-      <section className='border border-primary' >
+      <section className='' >
         <div className="d-grid gap-2">
           <Button 
-            variant="secondary" 
-            size="lg" className="" 
+            className='btnAbout'
+            size="lg" 
             >
               <a href="#project" style={{ color: 'white' }}>Projets</a>
           </Button>
         </div>
       </section>
 
-      <section className='border border-warning my-3'>
+      <section className='my-3'>
         <div className="d-grid gap-2">
-        <Button variant="secondary" size="lg" className="" onClick={() => setShowTraining(true)} >Formations</Button>
+        <Button  size="lg" className='btnAbout' onClick={() => setShowTraining(true)} >Formations</Button>
         <CustomOffcanvas 
             title="Formations" 
             content={<Training />} 
@@ -62,10 +63,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='border border-primary'>
+      <section className=''>
         <div className="d-grid gap-2">
 
-          <Button variant="secondary" size="lg" className="" ><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
+          <Button  size="lg" className='btnAbout'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
           
           {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
             <Offcanvas.Header closeButton>

@@ -1,7 +1,6 @@
 import React from "react";
 
 import NavBarContact from "./NavBarContact";
-import NavBarLayout from "./NavBarLayout";
 import Presentation from "./Presentation";
 
 function Header() {
@@ -15,7 +14,7 @@ function Header() {
         <Presentation/>
       </div>
       <div className="">
-        <NavBarLayout/>
+        {/* <NavBarLayout/> */}
       </div>
     </header>
     

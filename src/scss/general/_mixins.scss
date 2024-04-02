@@ -1,0 +1,27 @@
+@mixin media-breakpoint($size) {
+    @media screen and (min-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+@mixin btnCustom($bgc, $fgc, $bgcH,
+    $fgcH) {
+    background-color: $bgc;
+    color: $fgc;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0%;
+    transition: 0.6s;
+    transition-property: background-color, color;
+
+    &:hover {
+        background-color: $bgcH;
+        color: $fgcH;
+        cursor: pointer;
+    }
+}
+
+// @include btnCustom($dark, $white, $white, $dark);
