@@ -53,7 +53,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <section className=' mb-4' >
+      <section className=' my-4' >
         <div className="d-grid gap-2">
           <Button 
           className='btnCustomLink'

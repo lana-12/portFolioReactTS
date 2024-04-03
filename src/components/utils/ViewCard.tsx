@@ -6,7 +6,7 @@ import IViewCard from '../interfaces/IViewCard';
 
 const ViewCard: React.FC<IViewCard> = ({ title, imageUrl= null, description, level =null, year=null }) => {
   return (
-     <Card style={{ width: '18rem' }}>
+     <Card  style={{ width: '18rem' }}>
       {imageUrl !== null && 
       <Card.Img variant="top" src={imageUrl} />}
       <Card.Body>

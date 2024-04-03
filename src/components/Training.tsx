@@ -21,7 +21,7 @@ const Training = () => {
     return (
         <>
         <div className="row">
-            <div className="col ">
+            <div className="col  ">
                 {trainings.map((training, index) => (
                     <ViewCard
                         key={index}

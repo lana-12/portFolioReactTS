@@ -4,12 +4,12 @@ import React from "react";
 function Footer() {
     return (
 
-      <footer className="container-fluid ">
+      <footer className="">
         {/* Mention + Copyright Footer */}
           <div className="row">
             <div className="col ">
               <div className="mentionCopyrightFooter">
-
+ 
               {/* Mention  */}
                 {/* <div className="mentionFooter text-center col-md-6 ">
                   <h4 className="text-decoration-underline">Mention Légal</h4>
