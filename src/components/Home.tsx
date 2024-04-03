@@ -6,21 +6,25 @@ import Training from './Training';
 import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
 import SoftSkills from './SoftSkills';
+import Stack from './Stack';
 
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
   const [showTraining, setShowTraining] = useState(false);
   const [showSoftSkills, setShowSoftSkills] = useState(false);
+  const [showStack, setShowStack] = useState(false);
 
   const handleCloseAbout = () => setShowAbout(false);
   const handleCloseTraining = () => setShowTraining(false);
   const handleCloseSoftSkills = () => setShowSoftSkills(false);
+  const handleCloseStack = () => setShowStack(false);
 
 
   
   return (
     <>
     <section className='boxBtn container'>
+
       <section className=' my-3' >
         <div className="d-grid gap-2">
           <Button 
@@ -34,6 +38,23 @@ const Home = () => {
             content={<About />} 
             show={showAbout} 
             handleClose={handleCloseAbout} 
+          />
+        </div>
+      </section>
+      
+      <section className=' my-3' >
+        <div className="d-grid gap-2">
+          <Button 
+          className='btnCustomLink'
+            // variant="secondary" 
+            size="lg" 
+            onClick={() => setShowStack(true)}>Iconographie Technique
+          </Button>
+          <CustomOffcanvas 
+            title="Iconographies Technique" 
+            content={<Stack/>} 
+            show={showStack} 
+            handleClose={handleCloseStack} 
           />
         </div>
       </section>
