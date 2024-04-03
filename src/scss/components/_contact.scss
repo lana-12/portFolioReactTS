@@ -1,0 +1,58 @@
+.contact {
+    h4 {
+        color: $black;
+        font-weight: 800;
+        padding-top: 30px;
+    }
+    width: 100%;
+    background: rgba(65, 57, 57, 0.333) url("../../img/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .app-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contactEmailTel{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contactGitLin{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.linkContactHeader {
+    color: $black;
+    font-weight: 900;
+    margin: 30px 0;
+    i {
+        color: $black;
+        font-weight: 800;
+
+    }
+}
+
+/********MEDIA QUERY POUR ECRAN 768px***********/
+/******min-width 768px**************/
+@include media-breakpoint("md") {
+    .contact {
+        .app-contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: $black;
+            font-weight: 800;
+            .linkContactHeader,
+                i {
+                    color: $black;
+                    font-weight: 800;
+                }
+            }
+        }
+
+}

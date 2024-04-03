@@ -23,9 +23,9 @@ const Home = () => {
   
   return (
     <>
-    <section className='boxBtn container'>
+    <section className='boxBtn container '>
 
-      <section className=' my-3' >
+      <section className=' ' >
         <div className="d-grid gap-2">
           <Button 
           className='btnCustomLink'
@@ -41,14 +41,25 @@ const Home = () => {
           />
         </div>
       </section>
-      
-      <section className=' my-3' >
+
+      <section className='my-4 '>
+        <div className="d-grid gap-2">
+        <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Mes atouts</Button>
+        <CustomOffcanvas 
+            title="Mes atouts" 
+            content={<SoftSkills />} 
+            show={showSoftSkills} 
+            handleClose={handleCloseSoftSkills} 
+          />
+        </div>
+      </section>
+      <section className=' mb-4' >
         <div className="d-grid gap-2">
           <Button 
           className='btnCustomLink'
             // variant="secondary" 
             size="lg" 
-            onClick={() => setShowStack(true)}>Iconographie Technique
+            onClick={() => setShowStack(true)}>Iconographies Technique
           </Button>
           <CustomOffcanvas 
             title="Iconographies Technique" 
@@ -70,19 +81,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='my-3 '>
-        <div className="d-grid gap-2">
-        <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Ce que je suis devenue</Button>
-        <CustomOffcanvas 
-            title="Ce que je suis devenue" 
-            content={<SoftSkills />} 
-            show={showSoftSkills} 
-            handleClose={handleCloseSoftSkills} 
-          />
-        </div>
-      </section>
-
-      <section className='my-3'>
+      <section className='my-4'>
         <div className="d-grid gap-2">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowTraining(true)} >Formations</Button>
         <CustomOffcanvas 
@@ -115,7 +114,7 @@ const Home = () => {
         <Project />
       </section>
 
-      <section className="contactFooter" id="contact">
+      <section className="contact" id="contact">
         <Contact />      
       </section>
       
