@@ -1,4 +1,21 @@
 .iconEmail, .iconTel, .iconGitHub, .iconLinkedin {
     font-size: 1.8em;
     color: $black;
+    font-weight: 600;
+}
+
+
+/********MEDIA QUERY POUR ECRAN 768px***********/
+/******min-width 768px**************/
+@include media-breakpoint("md") {
+    .iconEmail,
+        .iconTel,
+        .iconGitHub,
+        .iconLinkedin {
+            font-size: 2em;
+            color: $white;
+            font-weight: 600;
+        }
+
+
 }

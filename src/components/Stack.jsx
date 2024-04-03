@@ -15,7 +15,6 @@ function Stack() {
                     <FontAwesomeIcon icon={faCss3} size="3x" />
                     <FontAwesomeIcon icon={faSquareJs} size="3x" />
 
-
                     <FontAwesomeIcon icon={faSymfony} size="3x" />
                     <FontAwesomeIcon icon={faReact} size="3x" />
                     <FontAwesomeIcon icon={faSass} size="3x" />

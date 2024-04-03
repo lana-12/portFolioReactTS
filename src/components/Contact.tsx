@@ -23,11 +23,11 @@ const Contact = () => {
               </div>
 
               
-                <Link className=" " target="_blank"   to="https://github.com/lana-12" title="GitHub" style={{ color: 'white' }}>
+                <Link className="linkContactHeader " target="_blank"   to="https://github.com/lana-12" title="GitHub" style={{ color: 'white' }}>
                   <i className="iconGitHub bi bi-github"></i>
                 </Link>
 
-                <Link className="" target="_blank" to="https://www.linkedin.com/in/virginie-giacometti-a88a01220/" title="Linkedin" style={{ color: 'white' }}>
+                <Link className="linkContactHeader" target="_blank" to="https://www.linkedin.com/in/virginie-giacometti-a88a01220/" title="Linkedin" style={{ color: 'white' }}>
                   <i className="iconLinkedin bi bi-linkedin"></i>
                 </Link>
                 

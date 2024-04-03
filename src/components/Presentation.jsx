@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Presentation = () => {
     return (
@@ -11,7 +13,9 @@ const Presentation = () => {
                 </div>
             </div>
         </div>
-       
+        <div className="arrow-container">
+            <FontAwesomeIcon icon={faArrowDown} className="arrow" />
+        </div>
         </>
     );
 }

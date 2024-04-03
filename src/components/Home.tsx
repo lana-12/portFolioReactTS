@@ -72,9 +72,9 @@ const Home = () => {
 
       <section className='my-3 '>
         <div className="d-grid gap-2">
-        <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Comment je suis ?</Button>
+        <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Ce que je suis devenue</Button>
         <CustomOffcanvas 
-            title="Comment je suis ?" 
+            title="Ce que je suis devenue" 
             content={<SoftSkills />} 
             show={showSoftSkills} 
             handleClose={handleCloseSoftSkills} 
