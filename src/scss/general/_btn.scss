@@ -1,11 +1,22 @@
-.btnCustomLink{
-    @include btnCustom($color2, $white, $color3, $color1);
-    border-radius: 3px;
-    border: solid 2px $color1;
-    box-shadow: 5px 6px 5px 1px $color3;
+.boxBtn {
+    width: 70%;
+    margin-top: 50px;
+    .btnCustomLink {
+            @include btnCustom($color2, $white, $color3, $color1);
+            border-radius: 3px;
+            border: solid 2px $color1;
+            box-shadow: 5px 6px 5px 1px $color1;
+        }
 }
 
-.boxBtn {
-    width: 100%;
-    padding: 30px 15px;
+
+/********MEDIA QUERY POUR ECRAN 992px***********/
+/******min-width 992px**************/
+@include media-breakpoint("lg") {
+    .boxBtn {
+        width: 100%;
+
+       
+    }
+
 }

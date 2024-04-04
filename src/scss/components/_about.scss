@@ -1,6 +1,7 @@
 .boxAbout {
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -10,6 +11,7 @@
     .boxAbout {
         display: flex;
         flex-direction: row;
+        color: $black;
     }
 
 

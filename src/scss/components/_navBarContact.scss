@@ -1,11 +1,14 @@
-
+.titleSite {
+    font-size: 1em;
+    font-weight: 700;
+}
 
 
 
 /********MEDIA QUERY POUR ECRAN 768px***********/
 /******min-width 768px**************/
 @include media-breakpoint("md") {
-    .textWhite {
+    .titleSite {
             color: $white;
         }
 }

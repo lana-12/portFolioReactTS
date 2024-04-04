@@ -7,7 +7,7 @@ function NavBarContact() {
             <nav className="navbar navbar-expand-md navbar-light ">
                 <div className="container-fluid">
                     <h1>
-                        <Link className="navbar-brand textWhite mt-2 " to="/" title="Accueil">
+                        <Link className="navbar-brand titleSite mt-2 " to="/" title="Accueil">
                             VirginieGiacometti
                         </Link>
                     </h1>

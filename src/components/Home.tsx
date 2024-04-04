@@ -26,7 +26,7 @@ const Home = () => {
     <section className='boxBtn container '>
 
       <section className=' ' >
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
           <Button 
           className='btnCustomLink'
             // variant="secondary" 
@@ -43,7 +43,7 @@ const Home = () => {
       </section>
 
       <section className='my-4 '>
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Mes atouts</Button>
         <CustomOffcanvas 
             title="Mes atouts" 
@@ -53,8 +53,9 @@ const Home = () => {
           />
         </div>
       </section>
+      
       <section className=' my-4' >
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
           <Button 
           className='btnCustomLink'
             // variant="secondary" 
@@ -71,7 +72,7 @@ const Home = () => {
       </section>
 
       <section className='' >
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
           <Button 
             className='btnCustomLink'
             size="lg" 
@@ -82,7 +83,7 @@ const Home = () => {
       </section>
 
       <section className='my-4'>
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowTraining(true)} >Formations</Button>
         <CustomOffcanvas 
             title="Formations" 
@@ -94,7 +95,7 @@ const Home = () => {
       </section>
 
       <section className=''>
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 btn">
 
           <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
           

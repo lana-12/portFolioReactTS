@@ -9,12 +9,6 @@ const SoftSkills = () => {
 
                 <div className='col boxService'>
 
-
-                    <div className="serviceIcon">
-                        <i className="display-5 bi bi-search "></i>
-                        <h3 className="fs-5 mt-2 fw-light fw-1">Résolution de problèmes</h3>
-                    </div>
-
                     <div className="serviceIcon">
                         <i className="display-5 bi bi-hourglass "></i>
                         <h3 className="fs-5 mt-2 fw-light">Patience et persévérance</h3>
