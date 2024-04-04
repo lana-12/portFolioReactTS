@@ -25,6 +25,7 @@ const Home = () => {
     <>
     <section className='boxBtn container '>
 
+    {/* Section About */}
       <section className=' ' >
         <div className="d-grid gap-2 btn">
           <Button 
@@ -42,6 +43,7 @@ const Home = () => {
         </div>
       </section>
 
+    {/* Section Mes Atouts */}
       <section className='my-4 '>
         <div className="d-grid gap-2 btn">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowSoftSkills(true)} >Mes atouts</Button>
@@ -53,7 +55,8 @@ const Home = () => {
           />
         </div>
       </section>
-      
+    
+    {/* Section Stacks */}
       <section className=' my-4' >
         <div className="d-grid gap-2 btn">
           <Button 
@@ -71,6 +74,7 @@ const Home = () => {
         </div>
       </section>
 
+    {/* Section Projets */}
       <section className='' >
         <div className="d-grid gap-2 btn">
           <Button 
@@ -82,6 +86,7 @@ const Home = () => {
         </div>
       </section>
 
+    {/* Section Training */}
       <section className='my-4'>
         <div className="d-grid gap-2 btn">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowTraining(true)} >Formations</Button>
@@ -94,9 +99,9 @@ const Home = () => {
         </div>
       </section>
 
+    {/* Section Contact */}
       <section className=''>
         <div className="d-grid gap-2 btn">
-
           <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
           
           {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
@@ -111,10 +116,13 @@ const Home = () => {
       </section>
     </section>
 
+    {/* Section Display Project */}
+
       <section className="boxProject my-5 pt-4 container-lg" id="project">
         <Project />
       </section>
 
+    {/* Section Display Contact */}
       <section className="contact" id="contact">
         <Contact />      
       </section>

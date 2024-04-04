@@ -1,0 +1,26 @@
+.boxStack {
+    // border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .stackIcon {
+        text-align: center;
+        // border: solid blue;
+        margin: 20px 0;
+        font-size: 3em;
+    }
+}
+
+/********MEDIA QUERY POUR ECRAN 992px***********/
+/******min-width 992px**************/
+@include media-breakpoint("lg") {
+    .boxStack{
+        color: $color2;
+        font-size: 1.2em;
+        margin-top: 10px;
+       
+    }
+
+
+}

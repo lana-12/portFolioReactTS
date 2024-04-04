@@ -7,21 +7,43 @@ function Stack() {
 
 
     return (
+        <div className="container-lg">
         <div className="row">
-            <div className="col ">
-                <div className=" " >
-                    <FontAwesomeIcon icon={faPhp} size="3x" />
-                    <FontAwesomeIcon icon={faHtml5} size="3x" />
-                    <FontAwesomeIcon icon={faCss3} size="3x" />
-                    <FontAwesomeIcon icon={faSquareJs} size="3x" />
-
-                    <FontAwesomeIcon icon={faSymfony} size="3x" />
-                    <FontAwesomeIcon icon={faReact} size="3x" />
-                    <FontAwesomeIcon icon={faSass} size="3x" />
-                    <FontAwesomeIcon icon={faDatabase} size="3x" />
-
+            <div className="col boxStack ">
+                    
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faPhp}  />
                 </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faHtml5}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faCss3}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faSquareJs}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faSymfony}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faReact}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faSass}  />
+                </div>
+
+                <div className="stackIcon col-6 col-lg-3">
+                    <FontAwesomeIcon icon={faDatabase}  />
+                </div>    
             </div>
+        </div>
         </div>
 
     );
