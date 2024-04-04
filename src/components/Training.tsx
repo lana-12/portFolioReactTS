@@ -23,12 +23,12 @@ const Training = () => {
         <div className="row">
             <div className="col  ">
                 {trainings.map((training, index) => (
-                    <ViewCard
-                        key={index}
-                        year={training.year}
-                        title={training.title}
-                        level={training.level}
-                        description={training.description}
+                    <ViewCard 
+                      key={index}
+                      year={training.year}
+                      title={training.title}
+                      level={training.level}
+                      description={training.description}
                     />
                 ))}
             </div>

@@ -23,15 +23,16 @@ const Project = () => {
 
         <div className="row">
             <div className="col-12 d-flex justify-content-center flex-wrap   ">
-            {projects.map((project, index) => (
-                <ViewCard
-                key={index}
-                title={project.title}
-                imageUrl={project.imageUrl}
-                description={project.description}
-                />
-            ))}
-            
+              
+              {projects.map((project, index) => (
+                  <ViewCard
+                  key={index}
+                  title={project.title}
+                  imageUrl={project.imageUrl}
+                  description={project.description}
+                  />
+              ))}
+
             </div>      
         </div>
         </>

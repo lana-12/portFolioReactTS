@@ -19,7 +19,7 @@ const Contact = () => {
                     </address>
                     <address>
                         <a className="linkContactHeader" href="tel:0618568698" title="Cliquer pour me contacter">
-                            <i className="iconTel bi bi-telephone-fillpe-3"></i>0618568698
+                            <i className="iconTel bi bi-telephone pe-3"></i>0618568698
                         </a>
                     </address>
                 </div>

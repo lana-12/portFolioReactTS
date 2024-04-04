@@ -1,7 +1,11 @@
-// .navBarContact {
-//     .navbar-brand {
-//         color: $black ;
-//     }
 
 
-// }
+
+
+/********MEDIA QUERY POUR ECRAN 768px***********/
+/******min-width 768px**************/
+@include media-breakpoint("md") {
+    .textWhite {
+            color: $white;
+        }
+}

@@ -7,7 +7,7 @@ function NavBarContact() {
             <nav className="navbar navbar-expand-md navbar-light ">
                 <div className="container-fluid">
                     <h1>
-                        <Link className="navbar-brand mt-2 " to="/" title="Accueil">
+                        <Link className="navbar-brand textWhite mt-2 " to="/" title="Accueil">
                             VirginieGiacometti
                         </Link>
                     </h1>
@@ -37,7 +37,7 @@ function NavBarContact() {
 
                             <li className="nav-item mb-3 me-md-5">
                                 <Link className="link-header " to="tel:0618568698" title="Cliquer contacter moi" >
-                                    <i className="iconTel bi bi-telephone-fill"></i>
+                                    <i className="iconTel bi bi-telephone"></i>
                                 </Link>
                             </li>
 
