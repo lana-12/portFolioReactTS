@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Concepteur Développeur d'Application",
+    "description": "Conception et développement sécurisé d'interfaces utilisateur",
+    "conception": "Conception et mise en place de bases de données",
+    "back": "PHP - Symfony - SQL",
+    "front": "Javascript - React - NodeJs",
+    "style": "Css - Scss - Sass - Bootstrap",
+    "level": "Bac+4",
+    "year": "2024",
+    "skills": "Agile - GitHub - Merise - Api"
+  },
+  {
+    "title": "Développeur Web Web Mobile",
+    "description": "Développement d'interface sécurisé",
+    "level": "Bac+2",
+    "year": "2023",
+    "conception": "Conception et mise en place de bases de données - Merise ",
+    "back": "PHP - Symfony - SQL",
+    "front": "Javascript ",
+    "style": "Css - Sass - Bootstrap",
+    "skills": " GitHub - Merise "
+  }
+]

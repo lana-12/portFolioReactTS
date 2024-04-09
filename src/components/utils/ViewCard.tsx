@@ -13,10 +13,13 @@ const ViewCard: React.FC<IViewCard> = ({ title, imageUrl= null, description, lev
         <Card.Title>{title}</Card.Title>
 
         {level !== null && 
-        <Card.Text>{level}</Card.Text> }
+        <Card.Text>Niveau : {level}</Card.Text> }
 
         {year !== null && 
-            <Card.Text>{year}</Card.Text> }
+            <Card.Text>Année : {year}</Card.Text> }
+
+        {/* {organisme !== null && 
+            <Card.Text>Année : {organisme}</Card.Text> } */}
 
         <Card.Text>{description}</Card.Text>
 
