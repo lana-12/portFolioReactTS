@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import IProject from '../interfaces/IProject';
 import ReactCardFlip from "react-card-flip";
 
