@@ -24,7 +24,7 @@ const ViewCardProject: React.FC<IProject> = ({ title, imageUrl = null, descripti
 
           <div className="cardImg">
             {imageUrl !== null && 
-            <img className="img-fluid" src={imageUrl} alt="Card image cap" />}
+            <img className="img-fluid" src={imageUrl}  />}
           </div>
 
           <div className="cardBody">
