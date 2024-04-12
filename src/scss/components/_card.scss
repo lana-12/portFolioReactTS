@@ -1,12 +1,8 @@
 .cardTraining {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
     .card {
         background-color: $color1;
         color: $white;
+        width: 20rem;
         // margin-top: 15px;
         .card-body {
             .card-title{
@@ -28,7 +24,9 @@
 /******min-width 992px**************/
 // @include media-breakpoint("lg") {
 //     .cardTraining {
-        
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
 //     }
 
 // }

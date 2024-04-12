@@ -10,6 +10,11 @@ const About = () => {
                 <img src={Vivi} alt="Vivi" className="img-fluid imgCV thumbnail " />
 
                 <p className="textIndent">
+                    Je suis passionnée par l'informatique depuis mon enfance, fascinée par la technologie et motivée par le désir de créer et d'innover. Cette passion m'a conduit à suivre une formation spécialisée en conception et en développement web. Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination, convaincue que l'informatique est bien plus qu'un métier, c'est une vocation.
+                </p>
+
+
+                {/* <p className="textIndent">
                     Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination. Je suis convaincue que l'informatique est bien plus qu'un simple métier, c'est une passion qui me pousse à me lever chaque matin avec le désir de créer, d'innover et de contribuer au monde numérique.
                 </p>
                 <p className="textIndent">
@@ -23,7 +28,7 @@ const About = () => {
                 <p className="textIndent">
                     J'ai ensuite enchaîné avec une autre formation pour enrichir mes connaissances et approfondir mes compétences dans le domaine.
                     Cette décision représentait pour moi bien plus qu'un simple choix de carrière, mais une véritable affirmation de ma vocation dans le monde de la technologie.
-                </p>
+                </p> */}
             </div>
         </div>
         </>
@@ -31,3 +36,5 @@ const About = () => {
 }
 
 export default About;
+
+
