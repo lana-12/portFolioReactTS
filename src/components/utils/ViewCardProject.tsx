@@ -2,45 +2,68 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import IProject from '../interfaces/IProject';
-import Contact from '../Contact';
+import ReactCardFlip from "react-card-flip";
 
 const ViewCardProject: React.FC<IProject> = ({ title, imageUrl = null, description, techno, year = null }) => {
-  const [isFlipped, setIsFlipped] = useState(false);
 
-  const handleDetailClick = () => {
-    setIsFlipped(!isFlipped);
-  };
+  const [flip, setFlip] = useState(false);
+
+  
 
   return (
-    <Card className={isFlipped ? 'card-flipped' : ''} style={{ width: '18rem' }}>
-      <div className="card-content">
-        {imageUrl !== null && <Card.Img variant="top" src={imageUrl} />}
-        <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>Techno : {techno}</Card.Text>
-          {year !== null && <Card.Text>Année : {year}</Card.Text>}
-          <Card.Text>{description}</Card.Text>
+
+    <ReactCardFlip 
+      isFlipped={flip}  
+      flipDirection="horizontal"
+      flipSpeedBackToFront={1} 
+      flipSpeedFrontToBack={1}
+    >
+          
+          {/* Card Front */}
+        <div className="cardProject cardProjectF" >
+          <h5 className="cardTitle">{title}</h5>
+
+          <div className="cardImg">
+            {imageUrl !== null && 
+            <img className="img-fluid" src={imageUrl} alt="Card image cap" />}
+          </div>
+
+          <div className="cardBody">
+            
+            <p className="">Techno : {techno}</p>
 
             <Button className="btn btn-secondary" target="_blank" href="https://github.com/lana-12" title="Github">
               <i className="iconGitHub bi bi-github"></i>
             </Button>
-            <Button className="btn btn-secondary" onClick={handleDetailClick}>
-              {isFlipped ? 'Retour' : 'Détail'}
+
+            <Button className="btn btn-secondary" title="Détail" onClick={() => setFlip(!flip)}>
+              Détail
             </Button>
 
-        </Card.Body>
-      </div>
+          </div>
 
-      <div className="card-back-content">
-        {/* Ajouter le component coté back */}
-        {/* Réfléchir quoi afficher */}
-        {/* Retour position initial */}
-        <Contact />
+        </div>
 
-      </div>
+      
+          {/* Card Back */}
+        <div className="cardProject cardProjectF" >
+          <h5 className="cardTitle">{title}</h5>
 
-    </Card>
-  );
+          <div className="cardBody">
+            
+            <p className="card-text">Techno : {techno}</p>
+            {year !== null && <p className="card-text">Année : {year}</p>}
+            <p className="card-text">{description}</p>
+
+            <Button className="btn btn-secondary" onClick={() => setFlip(!flip)} title="Retour">
+                      Retour
+            </Button>
+            
+          </div>
+        </div>
+
+    </ReactCardFlip>
+);
 };
 
 export default ViewCardProject;

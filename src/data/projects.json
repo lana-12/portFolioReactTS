@@ -9,7 +9,7 @@
     {
         "title": "Projet 2",
         "imageURL": "https://example.com/project1.jpg" ,
-        "techno": "PHP - Symfony - SQL",
+        "techno": "React - JS - TP",
         "year": "2023",
         "description": "Description du projet 2"
     },
@@ -18,7 +18,7 @@
         "imageURL": "https://example.com/project1.jpg" ,
         "year": "2022",
         "description": "Description du projet 3",
-        "techno": "PHP, SQL, HTML, JS"
+        "techno": "TML, JS, CSS"
     }
   ]
   

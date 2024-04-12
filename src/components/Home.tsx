@@ -118,7 +118,7 @@ const Home = () => {
 
     {/* Section Display Project */}
 
-      <section className="boxProject my-5 pt-4 container-lg" id="project">
+      <section className="boxProject mt-5 py-4 container-lg" id="project">
         <Project />
       </section>
 
