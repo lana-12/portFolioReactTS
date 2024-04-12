@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Projet 1",
+      "imageURL": "https://example.com/project1.jpg" ,
+      "techno": "PHP - Symfony - SQL",
+      "year": "2024",
+      "description": "Description du projet 1"
+    },
+    {
+        "title": "Projet 2",
+        "imageURL": "https://example.com/project1.jpg" ,
+        "techno": "PHP - Symfony - SQL",
+        "year": "2023",
+        "description": "Description du projet 2"
+    },
+    {
+        "title": "Projet 3",
+        "imageURL": "https://example.com/project1.jpg" ,
+        "year": "2022",
+        "description": "Description du projet 3",
+        "techno": "PHP, SQL, HTML, JS"
+    }
+  ]
+  

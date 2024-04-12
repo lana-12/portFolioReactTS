@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ITraining from '../interfaces/ITraining';
 
 
-const ViewCard: React.FC<ITraining> = ({ title, description, level , year, conception, back, front, style, skills, organism=null }) => {
+const ViewCardTraining: React.FC<ITraining> = ({ title, description, level , year, conception, back, front, style, skills, organism=null }) => {
   return (
 
         <Card  style={{ width: '18rem' }}>
@@ -31,7 +31,7 @@ const ViewCard: React.FC<ITraining> = ({ title, description, level , year, conce
   );
 }
 
-export default ViewCard;
+export default ViewCardTraining;
 
 
 

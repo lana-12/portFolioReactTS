@@ -1,7 +1,7 @@
-export default interface ViewCard {
+export default interface IProject {
   title: string;
   imageUrl?: string | null;
-  level?: string | null;
+  techno: string;
   description: string;
   year?: string;
 }
