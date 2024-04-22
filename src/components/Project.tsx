@@ -18,6 +18,8 @@ const Project = () => {
                   imageUrl={project.imageURL}
                   description={project.description}
                   techno={project.techno}
+                  year={project.year}
+                  video={project.video}
                   />
               ))}
 

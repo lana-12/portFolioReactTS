@@ -4,4 +4,6 @@ export default interface IProject {
   techno: string;
   description: string;
   year?: string;
+  video?: string | null;
+
 }

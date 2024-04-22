@@ -1,10 +1,11 @@
 [
     {
-      "title": "Projet 1",
+      "title": "FitnessDrive",
       "imageURL": "https://example.com/project1.jpg" ,
-      "techno": "PHP - Symfony - SQL",
+      "techno": "PHP - Symfony - SQL - HTML - JS - CSS Sass & Bootstrap",
       "year": "2024",
-      "description": "Description du projet 1"
+      "description": "Application de gestion des droits d'une franchise de salle de sport",
+      "video": "assets/video/fitnessdrive.mp4"
     },
     {
       "title": "Projet 2",

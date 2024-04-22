@@ -8,6 +8,8 @@ import Button from 'react-bootstrap/Button';
 import SoftSkills from './SoftSkills';
 import Stack from './Stack';
 
+
+
 const Home = () => {
   const [showAbout, setShowAbout] = useState(false);
   const [showTraining, setShowTraining] = useState(false);
@@ -98,6 +100,7 @@ const Home = () => {
           />
         </div>
       </section>
+      
 
     {/* Section Contact */}
       <section className=''>
