@@ -24,9 +24,9 @@ const Contact = () => {
                         </a>
                     </address>
                     
-                    <DownloadCV className="linkContactHeader"/>
-
                 </div>
+                    
+                    <DownloadCV className="linkContactHeader"/>
 
                 {/* GitHub et Linkedin */}
                 <div className="contactGitLin">

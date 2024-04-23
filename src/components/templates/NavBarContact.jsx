@@ -54,7 +54,7 @@ function NavBarContact() {
                                 </Link>
                             </li>
                             
-                            <li className="nav-item pt-4 me-md-5">
+                            <li className="nav-item pt-4 pt-md-0 me-md-5">
                                 <DownloadCV className="link-header " />
                             </li>
 
