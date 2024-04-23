@@ -5,6 +5,7 @@ export default interface IProject {
   description: string;
   year?: string;
   video?: string | null;
-  link: string;
+  link?: string | null;
+  github: string;
 
 }

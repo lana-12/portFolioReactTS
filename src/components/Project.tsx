@@ -21,6 +21,7 @@ const Project = () => {
                   year={project.year}
                   video={project.video}
                   link={project.link}
+                  github={project.github}
                   />
               ))}
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DownloadCV from "./DownloadCv";
 
 function NavBarContact() {
    
@@ -51,6 +52,10 @@ function NavBarContact() {
                                 <Link className="link-header" target="_blank" to="https://www.linkedin.com/in/virginie-giacometti-a88a01220/" title="Linkedin" >
                                     <i className="iconLinkedin bi bi-linkedin"></i>
                                 </Link>
+                            </li>
+                            
+                            <li className="nav-item pt-4 me-md-5">
+                                <DownloadCV className="link-header " />
                             </li>
 
                         </ul>

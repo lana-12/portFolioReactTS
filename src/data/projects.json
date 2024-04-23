@@ -6,7 +6,8 @@
       "year": "2022",
       "description": "Application de gestion des droits d'une franchise de salle de sport",
       "video": "assets/video/fitnessdrive.mp4",
-      "link": "https://github.com/lana-12/ecf-fitnessDrive"
+      "github": "https://github.com/lana-12/ecf-fitnessDrive",
+      "link": null
     },
     {
       "title": "TRTConseil",
@@ -15,7 +16,8 @@
       "year": "2023",
       "description": "Description du projet 2",
       "video": "",
-      "link": "https://github.com/lana-12/TRT-Conseil"
+      "github": "https://github.com/lana-12/TRT-Conseil",
+      "link": null
     },
     {
       "title": "PortFolio",
@@ -24,7 +26,19 @@
       "year": "2024",
       "description": "Vous êtes en train de découvrir mon portfolio !",
       "video": "",
-      "link": "https://github.com/lana-12/portFolioReactTS"
+      "github": "https://github.com/lana-12/portFolioReactTS",
+      "link": "https://portfolio-virginie-giacometti.netlify.app/"
+
+    },
+    {
+      "title": "13'Or Tattoo",
+      "imageURL": "assets/img/13ortatoo.png" ,
+      "techno": "HTML, Javascript, CSS SASS",
+      "year": "2022",
+      "description": "Salon de Tatouage Girly",
+      "video": "",
+      "github": "https://github.com/lana-12/13-Or-Tattoo",
+      "link": "https://13-or-tattoo.netlify.app"
 
     }
   ]

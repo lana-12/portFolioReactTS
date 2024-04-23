@@ -1,4 +1,4 @@
-.iconEmail, .iconTel, .iconGitHub, .iconLinkedin {
+.iconEmail, .iconTel, .iconGitHub, .iconLinkedin, .iconFile {
     font-size: 1.8em;
     color: $black;
     font-weight: 600;
@@ -11,7 +11,8 @@
     .iconEmail,
         .iconTel,
         .iconGitHub,
-        .iconLinkedin {
+        .iconLinkedin,
+        .iconFile {
             font-size: 2em;
             color: $white;
             font-weight: 600;

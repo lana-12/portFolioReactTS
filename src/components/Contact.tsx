@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import DownloadCV from './templates/DownloadCv';
 
 const Contact = () => {
     return (
@@ -10,18 +11,21 @@ const Contact = () => {
             <div className="col app-contact">
                 
 
-                {/* Email et Téléphone */}
+                {/* Email - Téléphone - CV */}
                 <div className="contactEmailTel">
                     <address className='pb-3'>
                         <a className="linkContactHeader" href="mailto:giacomettivirginie@gmail.com" title="giacomettivirginie@gmail.com">
                             <i className="iconEmail bi bi-envelope pe-3 "></i>
                         </a>
                     </address>
-                    <address>
+                    <address className='pb-3'>
                         <a className="linkContactHeader" href="tel:0618568698" title="0618568698">
                             <i className="iconTel bi bi-telephone pe-3"></i>
                         </a>
                     </address>
+                    
+                    <DownloadCV className="linkContactHeader"/>
+
                 </div>
 
                 {/* GitHub et Linkedin */}

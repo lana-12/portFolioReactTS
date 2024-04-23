@@ -22,6 +22,7 @@
   },
   "include": [
     "src",
-    "src/**/*.mp4" 
+    "src/**/*.mp4",
+    "src/**/*.pdf" 
   ]
 }
