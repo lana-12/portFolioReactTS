@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
@@ -106,15 +106,6 @@ const Home = () => {
       <section className=''>
         <div className="d-grid gap-2 btn">
           <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
-          
-          {/* <Offcanvas show={showContact} onHide={handleCloseContact} responsive="lg">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Contact</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body> */}
-              {/* <Contact /> */}
-            {/* </Offcanvas.Body>
-          </Offcanvas> */}
         </div>
       </section>
     </section>
