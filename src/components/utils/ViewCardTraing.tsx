@@ -11,10 +11,10 @@ const ViewCardTraining: React.FC<ITraining> = ({ title, description, level , yea
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <hr></hr>
+            <Card.Text className='text-center'>{description}</Card.Text>
             <Card.Text>Niveau : {level}</Card.Text>
             <Card.Text>Année : {year}</Card.Text>
 
-            <Card.Text>{description}</Card.Text>
             <Card.Text><u>Conception</u> : {conception}</Card.Text> 
 
             <Card.Text><u>Back</u> : {back}</Card.Text> 
@@ -23,7 +23,7 @@ const ViewCardTraining: React.FC<ITraining> = ({ title, description, level , yea
             <Card.Text><u>Méthodologie</u> : {skills}</Card.Text> 
 
             {organism !== null && 
-              <Card.Text>{organism}</Card.Text>}
+              <Card.Text><u>Centre</u> : {organism}</Card.Text>}
 
           </Card.Body>
         </Card>

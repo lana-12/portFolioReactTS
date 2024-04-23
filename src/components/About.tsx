@@ -9,9 +9,8 @@ const About = () => {
             <div className="col boxAbout">
                 <img src={Vivi} alt="Vivi" className="img-fluid imgCV thumbnail " />
 
-                <p className="textIndent">
-                    Je suis passionnée par l'informatique depuis mon enfance, fascinée par la technologie et motivée par le désir de créer et d'innover. Cette passion m'a conduit à suivre une formation spécialisée en conception et en développement web. Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination, convaincue que l'informatique est bien plus qu'un métier, c'est une vocation.
-                </p>
+                <p className="text-center pt-4">
+                Depuis mon enfance, je suis passionnée par l'informatique, fascinée par la technologie et animée par le désir de créer et d'innover. Cette passion m'a amenée à suivre une formation spécialisée en conception et développement web. Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination, convaincue que l'informatique est bien plus qu'un métier, c'est une vocation.                </p>
 
 
                 {/* <p className="textIndent">

@@ -1,25 +1,31 @@
 [
     {
       "title": "FitnessDrive",
-      "imageURL": "https://example.com/project1.jpg" ,
-      "techno": "PHP - Symfony - SQL - HTML - JS - CSS Sass & Bootstrap",
-      "year": "2024",
-      "description": "Application de gestion des droits d'une franchise de salle de sport",
-      "video": "assets/video/fitnessdrive.mp4"
-    },
-    {
-      "title": "Projet 2",
-      "imageURL": "https://example.com/project1.jpg" ,
-      "techno": "React - JS - TP",
-      "year": "2023",
-      "description": "Description du projet 2"
-    },
-    {
-      "title": "Projet 3",
-      "imageURL": "https://example.com/project1.jpg" ,
+      "imageURL": "assets/img/fitnessdrive.PNG" ,
+      "techno": "PHP - Symfony - SQL - HTML - JS - CSS - Sass - Bootstrap",
       "year": "2022",
-      "description": "Description du projet 3",
-      "techno": "TML, JS, CSS"
+      "description": "Application de gestion des droits d'une franchise de salle de sport",
+      "video": "assets/video/fitnessdrive.mp4",
+      "link": "https://github.com/lana-12/ecf-fitnessDrive"
+    },
+    {
+      "title": "TRTConseil",
+      "imageURL": "assets/img/trtconseil.PNG",
+      "techno": "PHP - Symfony - SQL - HTML - JS - CSS - Sass - Bootstrap",
+      "year": "2023",
+      "description": "Description du projet 2",
+      "video": "",
+      "link": "https://github.com/lana-12/TRT-Conseil"
+    },
+    {
+      "title": "PortFolio",
+      "imageURL": "" ,
+      "techno": "React - TypeScript - CSS - Scss - Bootstrap",
+      "year": "2024",
+      "description": "Vous êtes en train de découvrir mon portfolio !",
+      "video": "",
+      "link": "https://github.com/lana-12/portFolioReactTS"
+
     }
   ]
   

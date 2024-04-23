@@ -20,6 +20,7 @@ const Project = () => {
                   techno={project.techno}
                   year={project.year}
                   video={project.video}
+                  link={project.link}
                   />
               ))}
 

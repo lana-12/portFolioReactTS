@@ -8,17 +8,19 @@
     "style": "Css - Scss - Sass - Bootstrap",
     "level": "Bac+4",
     "year": "2023-2024",
-    "skills": "Agile - GitHub - Merise - Api"
+    "skills": "Agile - GitHub - Merise - Api",
+    "organism": "Diginamic"
   },
   {
     "title": "Développeur Web Web Mobile",
-    "description": "Développement d'interface sécurisé",
+    "description": "Développement d'interface Web",
     "level": "Bac+2",
     "year": "2022-2023",
     "conception": "Conception et mise en place de bases de données - Merise ",
     "back": "PHP - Symfony - SQL",
     "front": "Javascript ",
     "style": "Css - Sass - Bootstrap",
-    "skills": " GitHub - Merise "
+    "skills": " GitHub - Merise ",
+    "organism": "Studi"
   }
 ]

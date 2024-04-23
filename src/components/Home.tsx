@@ -65,10 +65,10 @@ const Home = () => {
           className='btnCustomLink'
             // variant="secondary" 
             size="lg" 
-            onClick={() => setShowStack(true)}>Iconographies Technique
+            onClick={() => setShowStack(true)}>Iconographies Techniques
           </Button>
           <CustomOffcanvas 
-            title="Iconographies Technique" 
+            title="Iconographies Techniques" 
             content={<Stack/>} 
             show={showStack} 
             handleClose={handleCloseStack} 

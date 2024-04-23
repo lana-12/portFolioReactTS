@@ -22,6 +22,7 @@ const Training = () => {
                     front={training.front}
                     style={training.style}
                     skills={training.skills}
+                    organism={training.organism}
                   />
                   ))}
                
