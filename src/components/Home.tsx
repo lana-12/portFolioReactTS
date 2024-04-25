@@ -76,17 +76,6 @@ const Home = () => {
         </div>
       </section>
 
-    {/* Section Projets */}
-      <section className='' >
-        <div className="d-grid gap-2 btn">
-          <Button 
-            className='btnCustomLink'
-            size="lg" 
-            >
-              <a href="#project" style={{ color: 'white' }}>Projets</a>
-          </Button>
-        </div>
-      </section>
 
     {/* Section Training */}
       <section className='my-4'>
@@ -103,15 +92,28 @@ const Home = () => {
       
 
     {/* Section Contact */}
-      <section className=''>
+      <section className='my-4'>
         <div className="d-grid gap-2 btn">
           <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
         </div>
       </section>
+
+      {/* Section Projets */}
+      <section className='' >
+        <div className="d-grid gap-2 btn">
+          <Button 
+            className='btnCustomLink'
+            size="lg" 
+            >
+              <a href="#project" style={{ color: 'white' }}>Projets</a>
+          </Button>
+        </div>
+      </section>
+
     </section>
 
-    {/* Section Display Project */}
 
+    {/* Section Display Project */}
       <section className="boxProject mt-5 py-4 container-lg" id="project">
         <Project />
       </section>

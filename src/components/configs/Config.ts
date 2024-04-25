@@ -10,6 +10,8 @@ export default class Config {
 
     public static LINKEDIN_URL: string = "https://www.linkedin.com/in/virginie-giacometti-a88a01220/";
 
+    public static CV_LINK: string = "assets/img/CV.pdf";
+
 
 }
 

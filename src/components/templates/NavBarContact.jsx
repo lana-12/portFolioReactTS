@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DownloadCV from "./DownloadCv";
+import Config from "../configs/Config.ts"; 
 
 function NavBarContact() {
    
@@ -31,25 +32,26 @@ function NavBarContact() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center ">
 
                             <li className="nav-item mb-3 me-md-5 ">
-                                <Link className="link-header " to="mailto:giacomettivirginie@gmail.com" title="Cliquer contacter moi" >
+                                <Link className="link-header " to={`mailto:${Config.EMAIL_URL}`} title="Cliquer contacter moi" >
                                     <i className=" iconEmail bi bi-envelope"></i>
                                 </Link>
                             </li>
 
                             <li className="nav-item mb-3 me-md-5">
-                                <Link className="link-header " to="tel:0618568698" title="Cliquer contacter moi" >
+                                <Link className="link-header "  
+                                to={`tel:${Config.PHONE_URL}`}                               title="Cliquer contacter moi" >
                                     <i className="iconTel bi bi-telephone"></i>
                                 </Link>
                             </li>
 
                             <li className="nav-item mb-3 me-md-5">
-                                <Link className="link-header " target="_blank" to="https://github.com/lana-12" title="GitHub" style={{ color: 'black' }}>
+                                <Link className="link-header " target="_blank" to={Config.GITHUB_URL} title="GitHub" style={{ color: 'black' }}>
                                     <i className="iconGitHub bi bi-github"></i>
                                 </Link>
                             </li>
 
                             <li className="nav-item  me-md-5">
-                                <Link className="link-header" target="_blank" to="https://www.linkedin.com/in/virginie-giacometti-a88a01220/" title="Linkedin" >
+                                <Link className="link-header" target="_blank" to={Config.LINKEDIN_URL}>
                                     <i className="iconLinkedin bi bi-linkedin"></i>
                                 </Link>
                             </li>

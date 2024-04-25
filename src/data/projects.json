@@ -40,6 +40,18 @@
       "github": "https://github.com/lana-12/13-Or-Tattoo",
       "link": "https://13-or-tattoo.netlify.app"
 
+    },
+
+    {
+      "title": "Charles Quentin",
+      "imageURL": "assets/img/charlesquentin.jpg",
+      "techno": "HTML, Javascript, CSS SASS, Nunjunck",
+      "year": "2022",
+      "description": "PortFolio de Charles Quentin, Photographe amateur",
+      "video": "",
+      "github": "https://github.com/lana-12/Evaluation-Front-Charles-Cantin",
+      "link": "https://photographe-cantin-charles.netlify.app/"
+
     }
   ]
   

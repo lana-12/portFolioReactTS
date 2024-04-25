@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import IDownloadCv from '../interfaces/IDownloadCv';
+import Config from '../configs/Config';
 
-interface DownloadCVProps {
-  className?: string;
-}
 
-const DownloadCV: React.FC<DownloadCVProps> = ({ className }) => {
+const DownloadCV: React.FC<IDownloadCv> = ({ className }) => {
   return (
     <Link 
       className={className}
-      to="assets/img/CV.pdf"
+      to={Config.CV_LINK}
       target="_blank"
       download
       title="Cliquez pour visualiser mon CV"
