@@ -6,9 +6,15 @@
     margin: auto;
     margin-bottom: 25px;
     border: $white 1px solid;
-    display: flex;
-    justify-content: center;
     box-shadow: 12px 12px 2px 1px $color1;
+
+    // @include media-breakpoint("lg") {
+    //     margin: 50px auto 25px auto; 
+    //     margin-left: 20px;
+    // }
+    // @include media-breakpoint("xl") {
+    //     margin-left: 50px;
+    // }
 }
 
 

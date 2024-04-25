@@ -1,4 +1,6 @@
 .cardTraining {
+    display: flex;
+    flex-direction: column;
     .card {
         background-color: $color1;
         color: $white;
@@ -22,11 +24,18 @@
 
 /********MEDIA QUERY POUR ECRAN 992px***********/
 /******min-width 992px**************/
-// @include media-breakpoint("lg") {
-//     .cardTraining {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//     }
+@include media-breakpoint("lg") {
 
-// }
+    .customOffCanvasTraining{
+        .customOffCanvas, .cardTraining {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+        
+        }
+
+
+    }
+
+}

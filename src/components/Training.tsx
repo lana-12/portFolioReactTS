@@ -8,7 +8,7 @@ const Training = () => {
   return (
         <>
           <div className="row">
-              <div className="col d-flex justify-content-center flex-wrap cardTraining">
+              <div className="col cardTraining">
                
                 {trainingsData.map((training, index) => (
                   <ViewCardTraining 

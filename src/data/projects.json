@@ -31,6 +31,17 @@
 
     },
     {
+      "title": "Projet POO ",
+      "imageURL": "assets/img/projet-poo.png",
+      "techno": "PHP, SQL , CSS Scss",
+      "year": "2023",
+      "description": "Projet Individuel de formation ",
+      "video": "",
+      "github": "https://github.com/lana-12/Projet-Poo",
+      "link": "https://gestion-poo.000webhostapp.com/"
+    },
+    
+    {
       "title": "13'Or Tattoo",
       "imageURL": "assets/img/13ortatoo.png" ,
       "techno": "HTML, Javascript, CSS SASS",
@@ -53,5 +64,8 @@
       "link": "https://photographe-cantin-charles.netlify.app/"
 
     }
+
+   
   ]
   
+

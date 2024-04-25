@@ -28,7 +28,7 @@ const Home = () => {
     <section className='boxBtn container '>
 
     {/* Section About */}
-      <section className=' ' >
+      <section className='customOffCanvasAbout ' >
         <div className="d-grid gap-2 btn">
           <Button 
           className='btnCustomLink'
@@ -78,7 +78,7 @@ const Home = () => {
 
 
     {/* Section Training */}
-      <section className='my-4'>
+      <section className='my-4 customOffCanvasTraining'>
         <div className="d-grid gap-2 btn">
         <Button  size="lg" className='btnCustomLink' onClick={() => setShowTraining(true)} >Formations</Button>
         <CustomOffcanvas 
@@ -114,7 +114,7 @@ const Home = () => {
 
 
     {/* Section Display Project */}
-      <section className="boxProject mt-5 py-4 container-lg" id="project">
+      <section className="boxProject mt-5 py-4 container-fluid-lg" id="project">
         <Project />
       </section>
 

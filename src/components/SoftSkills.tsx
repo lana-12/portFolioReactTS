@@ -4,7 +4,7 @@ import React from 'react';
 const SoftSkills = () => {
     return (
         <>
-        <section className=' container-fluid'>
+        <section className=' container-lg'>
             <div className="row ">
 
                 <div className='col boxService'>
