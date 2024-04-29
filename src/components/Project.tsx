@@ -6,7 +6,7 @@ const Project = () => {
 
     return (
         <>
-        <h2 className="">Mes Projets</h2>
+        <h2 className="ms-3" style={{ color: 'white' }}>Mes Projets</h2>
 
         <div className="row">
             <div className="col-12 d-flex justify-content-center flex-wrap ">

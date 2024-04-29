@@ -21,7 +21,7 @@
     },
     {
       "title": "PortFolio",
-      "imageURL": "" ,
+      "imageURL": "assets/img/portfolio.png" ,
       "techno": "React - TypeScript - CSS - Scss - Bootstrap",
       "year": "2024",
       "description": "Vous êtes en train de découvrir mon portfolio !",
@@ -31,11 +31,11 @@
 
     },
     {
-      "title": "Projet POO ",
+      "title": "Projet POO-PDO ",
       "imageURL": "assets/img/projet-poo.png",
       "techno": "PHP, SQL , CSS Scss",
       "year": "2023",
-      "description": "Projet Individuel de formation ",
+      "description": "Projet Individuel de formation - Gestion de Projet avec des tâches associées à des collaborateurs",
       "video": "",
       "github": "https://github.com/lana-12/Projet-Poo",
       "link": "https://gestion-poo.000webhostapp.com/"

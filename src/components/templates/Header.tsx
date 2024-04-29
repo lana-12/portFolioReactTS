@@ -10,9 +10,9 @@ function Header() {
       <div className="navBarContact">
         <NavBarContact/>
       </div>
-      <section className='text-center my-5 ' >
+      {/* <section className='text-center my-5 ' >
         <h1>En cours de développement ...</h1>
-      </section>
+      </section> */}
       <div className="my-5 presentation">
         <Presentation/>
       </div>

@@ -7,6 +7,7 @@ import CustomOffcanvas from './utils/CustomOffcanvas';
 import Button from 'react-bootstrap/Button';
 import SoftSkills from './SoftSkills';
 import Stack from './Stack';
+import BtnScroll from './templates/BtnScroll';
 
 
 
@@ -21,11 +22,40 @@ const Home = () => {
   const handleCloseSoftSkills = () => setShowSoftSkills(false);
   const handleCloseStack = () => setShowStack(false);
 
-
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   
   return (
     <>
     <section className='boxBtn container '>
+
+      {/* Btn Up */}
+      <section className='my-4'>
+        <BtnScroll 
+          id= "upbtn"
+          title= "Haut"
+          nameBtn= "Haut"
+          actionBtn={handleScrollToTop}
+        
+        />
+      </section>
+
+
+    {/* Btn Contact */}
+      <section className='my-4'>
+        <BtnScroll 
+          id= "fixedbutton"
+          title= "Contact"
+          nameBtn= "Contact"
+          href="#contact"
+        
+        />
+      </section>
+           
 
     {/* Section About */}
       <section className='customOffCanvasAbout ' >
@@ -89,17 +119,10 @@ const Home = () => {
           />
         </div>
       </section>
-      
 
-    {/* Section Contact */}
-      <section className='my-4'>
-        <div className="d-grid gap-2 btn">
-          <Button  size="lg" className='btnCustomLink'><a href="#contact" style={{ color: 'white' }}>Contact</a></Button>
-        </div>
-      </section>
 
       {/* Section Projets */}
-      <section className='' >
+      {/* <section className='' >
         <div className="d-grid gap-2 btn">
           <Button 
             className='btnCustomLink'
@@ -108,7 +131,7 @@ const Home = () => {
               <a href="#project" style={{ color: 'white' }}>Projets</a>
           </Button>
         </div>
-      </section>
+      </section> */}
 
     </section>
 

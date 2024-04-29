@@ -10,7 +10,13 @@ const About = () => {
                 <img src={Vivi} alt="Vivi" className="img-fluid imgCV thumbnail " />
 
                 <p className="text-center pt-4">
-                Depuis mon enfance, je suis passionnée par l'informatique, fascinée par la technologie et animée par le désir de créer et d'innover. Cette passion m'a amenée à suivre une formation spécialisée en conception et développement web. Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination, convaincue que l'informatique est bien plus qu'un métier, c'est une vocation.                </p>
+                Depuis mon enfance, je suis passionnée par l'informatique, fascinée par la technologie et animée par le désir de créer et d'innover. Cette passion m'a amenée à suivre une formation spécialisée en conception et développement web. Aujourd'hui, je vis mon rêve en programmant chaque jour avec enthousiasme et détermination, convaincue que l'informatique est bien plus qu'un métier, c'est une vocation.                
+                </p>
+
+
+                <p className="text-center pt-4">
+                En tant que stagiaire chez Dexentri, pendant trois mois, j'ai eu l'opportunité captivante de prendre en charge la conception et le développement de l'interface utilisateur d'une plateforme de trading novatrice, spécialisée dans les bouteilles de vin. Ce projet m'a plongé au cœur de technologies de pointe, notamment React pour l'interface utilisateur, ainsi que des requêtes en NoSQL sur MastermindCMS et en SQL sur une API Rest. Cette expérience enrichissante m'a permis d'approfondir mes compétences en développement web tout en travaillant sur un projet concret et stimulant.              
+                </p>
 
 
                 {/* <p className="textIndent">
