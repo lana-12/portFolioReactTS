@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player'
 
 
 
-const ViewCardProject: React.FC<IProject> = ({ title, imageUrl = null, description, techno, github, year = null, link=null, video=null }) => {
+const ViewCardProject: React.FC<IProject> = ({ title, imageUrl = null, description, techno, github, github2 = null, year = null, link=null, video=null }) => {
   const [flip, setFlip] = useState(false);
 
   return (
@@ -35,6 +35,13 @@ const ViewCardProject: React.FC<IProject> = ({ title, imageUrl = null, descripti
           <Button className="btn btn-secondary btn-lg" target="_blank" href={github} title="Github">
             <i className="iconGitHub bi bi-github"></i>
           </Button>
+
+
+          {github2 !== null  && 
+            <Button className="btn btn-secondary btn-lg" target="_blank" href={github2} title="Github Front">
+            <i className="iconGitHub bi bi-github"></i>
+          </Button>
+          }
 
           <Button className="btn btn-secondary btn-lg" title="Détail" onClick={() => setFlip(!flip)}>
             Détail

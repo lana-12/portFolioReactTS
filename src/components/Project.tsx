@@ -22,6 +22,7 @@ const Project = () => {
                   video={project.video}
                   link={project.link}
                   github={project.github}
+                  github2={project.github2}
                   />
               ))}
 

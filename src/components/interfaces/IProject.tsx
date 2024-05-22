@@ -7,5 +7,6 @@ export default interface IProject {
   video?: string | null;
   link?: string | null;
   github: string;
+  github2?: string | null;
 
 }
