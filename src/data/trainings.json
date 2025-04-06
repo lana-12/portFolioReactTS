@@ -1,12 +1,24 @@
 [
   {
+  "title": "Développeur Full Stack Big Data & Data Engineer",
+  "description": "Développement d'applications Full Stack, Big Data, et Data Engineering",
+  "conception": "Conception et Modélisation de bases de données relationnelles et Big Data",
+  "back": "Java - Spring - Python - Hadoop - Spark - Elasticsearch",
+  "front": "ReactJS - Streamlit",
+  "style": " ",
+  "level": "Bac+5",
+  "year": "Juin 2024 - Mars 2025",
+  "skills": "API REST - Docker - Big Data - Spark - IA - Kali",
+  "organism": "Diginamic"
+  },
+  {
     "title": "Concepteur Développeur d'Application",
     "description": "Conception et développement sécurisé d'interfaces utilisateur",
     "conception": "Conception et mise en place de bases de données",
     "back": "PHP - Symfony - SQL",
     "front": "Javascript - React - NodeJs",
     "style": "Css - Scss - Sass - Bootstrap",
-    "level": "Bac+4",
+    "level": "Bac+3",
     "year": "2023-2024",
     "skills": "Agile - GitHub - Merise - Api",
     "organism": "Diginamic"

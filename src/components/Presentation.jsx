@@ -8,8 +8,8 @@ const Presentation = () => {
         <div className="row mb-5">
             <div className="col d-flex justify-content-center ">
                 <div className="textPresentation ">
-                    <h2>Concepteur Développeur PHP </h2>
-                    <h3>FullStack</h3>
+                    <h2>Développeuse FullStack</h2>
+                    <h3>Web | Data</h3>
                 </div>
             </div>
         </div>

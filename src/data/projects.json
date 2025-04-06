@@ -5,7 +5,7 @@
     "imageURL": "assets/img/portfolio.png" ,
     "techno": "React - TypeScript - CSS - Scss - Bootstrap - db en Json",
     "year": "2024",
-    "description": "Vous êtes en train de découvrir mon portfolio ! - En cours de développement",
+    "description": "Vous êtes en train de découvrir mon portfolio ! ",
     "video": "",
     "github": "https://github.com/lana-12/portFolioReactTS",
     "link": "https://portfolio-virginie-giacometti.netlify.app/"
@@ -14,13 +14,13 @@
 
   {
     "title": "OrganizeLife",
-    "imageURL": "assets/img/organizelife.png",
-    "techno": "PHP/Symfony - SQL - CSS Scss Bootstrap - JS",
+    "imageURL": "assets/img/organizelife.jpeg",
+    "techno": "PHP/Symfony - SQL - CSS(Scss) Bootstrap - JS",
     "year": "2024",
-    "description": "Application de gestion de planning - En cours de développement - Pas encore de style défini - ",
+    "description": "Application de gestion de planning - En cours de développement -",
     "video": "",
     "github": "https://github.com/lana-12/organizeLife ",
-    "link": null
+    "link": "https://organizelife.servange.fr/"
   },
 
   {
@@ -38,7 +38,7 @@
     "imageURL": "assets/img/harmonyhabitat.png",
     "techno": "PHP/Symfony - SQL - ApiPlatform - CSS Scss Bootstrap - React - TypeScript",
     "year": "2024",
-    "description": "Application pour trouver un lieu d'habitation par critères - Projet d'équipe - Deux repositories Front et Back sur Github - En cours de développement -  ",
+    "description": "Application pour trouver un lieu d'habitation par critères - Projet de formation en équipe - Deux repositories Front et Back sur Github - ",
     "video": "",
     "github": "https://github.com/lana-12/Harmony_Habitat_Back",
     "github2": "https://github.com/lana-12/Harmony_Habitat_Front ",
@@ -59,7 +59,7 @@
     "imageURL": "assets/img/trtconseil.PNG",
     "techno": "PHP/Symfony - SQL - JS - CSS Sass Bootstrap",
     "year": "2023",
-    "description": "Application de recrutement pour les professionnels en Hôtellerie - Vidéo en cours de montage",
+    "description": "Application de recrutement pour les professionnels en Hôtellerie",
     "video": "",
     "github": "https://github.com/lana-12/TRT-Conseil",
     "link": null
@@ -69,7 +69,7 @@
     "imageURL": "assets/img/projet-poo.png",
     "techno": "PHP/PDO/POO - SQL - CSS Scss Bootstrap",
     "year": "2023",
-    "description": "Projet Individuel de formation - Gestion de Projet avec des tâches associées à des collaborateurs - Voir le README pour se connecter",
+    "description": "Projet Individuel de formation - Gestion de Projet avec des tâches associées à des collaborateurs ",
     "video": "",
     "github": "https://github.com/lana-12/Projet-Poo",
     "link": "https://gestion-poo.000webhostapp.com/"
